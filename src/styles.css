@@ -356,8 +356,18 @@ app2-below::-webkit-scrollbar-thumb {
   font-size: 11px;
 }
 .inner-part4 {
-  /* border: 2px solid red; */
-  /* margin-top: 50px; */
+  
   display: grid;
   grid-template-columns: 30% 20% 15% 15% 15%;
+}
+
+/* &&&&&&&&&& Responsive &&&&&&& */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .home {
+    display: grid;
+    grid-template-columns: 100px 500px 770px;
+  }
 }
